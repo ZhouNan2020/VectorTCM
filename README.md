@@ -29,11 +29,11 @@ This software includes the following modules: Descriptive statistics, Prescripti
 
 Descriptive statistics is used in the same sense as descriptive statistics in any other analytical context, presenting the researcher with the most immediate information in the data set. It is a good starting point for any analysis. 📊
 
-### Prescription Similarity
+### Difference between prescriptions
 
 Prescription similarity is used to calculate the similarity between prescriptions. Two vector distance calculation methods are mainly used here, dot product value and cosine similarity. The dot product value reflects the absolute quantity of the same herbal medicine used in different prescriptions, and the cosine similarity reflects the relative similarity of different prescriptions. The maximum value is 1, which means they are exactly the same, and the minimum value is 0, which means they do not use any of the same herbs. 🌿
 
-### General Analysis
+### Characteristic herbs and universal herbs
 
 General analysis is a method of calculating rare herbal medicines and common herbal medicines in the data set based on the TF-IDF value. The average TF-IDF value of each prescription is obtained by calculating the TF-IDF value of each herb. We can use it to tell whether a prescription's herbal composition is extremely rare or very common. And further learn in this data set, what is the mainstream prescription composition. 🧐
 
